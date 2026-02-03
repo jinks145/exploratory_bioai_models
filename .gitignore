@@ -1,5 +1,6 @@
 # Claude-specific context (personal working files)
-.claude
+.claude/
+CLAUDE.md
 
 # Data files (large genomics datasets)
 # Exclude entire data folder except for placeholder files
