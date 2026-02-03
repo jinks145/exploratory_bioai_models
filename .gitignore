@@ -1,5 +1,6 @@
 # Claude-specific context (personal working files)
-.claude
+.claude/
+CLAUDE.md
 
 # Data files (large genomics datasets)
 # Exclude entire data folder except for placeholder files
@@ -67,8 +68,6 @@ checkpoints/
 notebooks/scratch/
 
 # Environment files
-.env
-.env.local
 .venv/
 env/
 venv/
@@ -100,7 +99,6 @@ wheels/
 *.egg
 
 # IDEs
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -140,3 +138,9 @@ credentials/
 secrets/
 *.key
 *.pem
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules
